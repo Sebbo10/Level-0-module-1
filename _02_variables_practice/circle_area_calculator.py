@@ -25,7 +25,7 @@ if __name__ == '__main__':
     tooty.goto(50,30)
     # Calculate the area of your circle and store it in a variable
     # Hint, you can use math.pi
-    area=math.pi * radius ** 2
+    area=math.pi * (radius ** 2)
     # Write the area of your circle using the turtle .write() method
     tooty.write(arg="area = " + str(area), move=True, align='left', font=('Arial',15,'normal'))
 
